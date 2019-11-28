@@ -1,4 +1,4 @@
-package fnozoszzt.pdd.common;
+package fnozoszzt.pdd.bean;
 
 public class User {
     private String name;

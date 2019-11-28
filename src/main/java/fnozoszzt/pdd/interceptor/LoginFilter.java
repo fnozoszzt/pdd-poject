@@ -1,9 +1,7 @@
 package fnozoszzt.pdd.interceptor;
 
-import com.netflix.ribbon.proxy.annotation.Http;
-import fnozoszzt.pdd.common.User;
+import fnozoszzt.pdd.bean.User;
 import fnozoszzt.pdd.util.RedisUtil;
-import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +17,6 @@ import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Map;
 
 @WebFilter(filterName="LoginFilter",urlPatterns="/*")
 @Order(2)
