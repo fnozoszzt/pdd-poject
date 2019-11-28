@@ -1,0 +1,40 @@
+#tomcat端口
+server:
+  port: 8083
+
+#元数据服务地址
+bdmsmeta:
+  ribbon:
+    listOfServers: bdmsmeta-online.service.163.org
+  aac:
+    #
+    url: http://aac.bdms.netease.com
+
+#datastream服务地址
+datastream:
+  ribbon:
+    listOfServers: datastream43.jd.163.org:8001
+
+#token验证，此服务单独一个，不请求数据库
+dsweb:
+  apiKey: 89dfe95c-71a9-4eb8-9b01-d552fcdb6a6a
+  masterKey: 133dc7cc-1edd-4fe2-8847-2661976881fb
+
+#redis服务地址
+redis:
+  server:
+    #host:  mammut6.lt.163.org
+    host:  datastream39.lt.163.org
+    port:  6379
+
+#session配置
+global:
+  session:
+    timeout:  240       #minute
+  localToken:
+    timeout:  14400       #second
+
+#登陆方式
+login:
+  use_bdms: true
+  #use_bdms: false

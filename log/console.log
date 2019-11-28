@@ -1,0 +1,1186 @@
+[INFO]-[2019-11-28 21:54:41]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 21:54:41]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@483bf400: startup date [Thu Nov 28 21:54:41 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 21:54:42]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 21:54:42]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8aad4192] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 21:54:42]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 21:54:42]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6e1567f1: startup date [Thu Nov 28 21:54:42 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@483bf400 
+[INFO]-[2019-11-28 21:54:43]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 21:54:43]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 21:54:43]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8aad4192] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 21:54:43]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8083 (http) 
+[INFO]-[2019-11-28 21:54:43]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1355 ms 
+[INFO]-[2019-11-28 21:54:44]-[ServletRegistrationBean.java:186] Servlet dispatcherServlet mapped to [/] 
+[INFO]-[2019-11-28 21:54:44]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO]-[2019-11-28 21:54:44]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO]-[2019-11-28 21:54:44]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO]-[2019-11-28 21:54:44]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO]-[2019-11-28 21:54:44]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'RequestsLogFilter' to urls: [/*] 
+[INFO]-[2019-11-28 21:54:44]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'globalSessionFilter' to: [/*] 
+[WARN]-[2019-11-28 21:54:44]-[ArchaiusAutoConfiguration.java:151] No spring.application.name found, defaulting to 'application' 
+[WARN]-[2019-11-28 21:54:44]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 21:54:44]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[WARN]-[2019-11-28 21:54:44]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 21:54:44]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[INFO]-[2019-11-28 21:54:44]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 21:54:45]-[RequestMappingHandlerAdapter.java:574] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6e1567f1: startup date [Thu Nov 28 21:54:42 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@483bf400 
+[INFO]-[2019-11-28 21:54:45]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/]}" onto public void fnozoszzt.pdd.controller.TestController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception 
+[INFO]-[2019-11-28 21:54:45]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO]-[2019-11-28 21:54:45]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO]-[2019-11-28 21:54:45]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 21:54:45]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 21:54:45]-[ExceptionHandlerExceptionResolver.java:288] Detected @ExceptionHandler methods in myExceptionHandler 
+[INFO]-[2019-11-28 21:54:45]-[MBeanExporter.java:433] Registering beans for JMX exposure on startup 
+[INFO]-[2019-11-28 21:54:45]-[MBeanExporter.java:895] Bean with name 'refreshScope' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 21:54:45]-[MBeanExporter.java:895] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 21:54:45]-[MBeanExporter.java:895] Bean with name 'environmentManager' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 21:54:45]-[MBeanExporter.java:675] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager] 
+[INFO]-[2019-11-28 21:54:45]-[MBeanExporter.java:675] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope] 
+[INFO]-[2019-11-28 21:54:45]-[MBeanExporter.java:675] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6e1567f1,type=ConfigurationPropertiesRebinder] 
+[INFO]-[2019-11-28 21:54:45]-[TomcatWebServer.java:206] Tomcat started on port(s): 8083 (http) with context path '' 
+[INFO]-[2019-11-28 21:54:45]-[StartupInfoLogger.java:59] Started MyApplication in 4.211 seconds (JVM running for 4.781) 
+[INFO]-[2019-11-28 21:55:34]-[FrameworkServlet.java:494] FrameworkServlet 'dispatcherServlet': initialization started 
+[INFO]-[2019-11-28 21:55:34]-[FrameworkServlet.java:509] FrameworkServlet 'dispatcherServlet': initialization completed in 45 ms 
+[ERROR]-[2019-11-28 21:55:41]-[RedisSessionStore.java:220] Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out 
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:100)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:147)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:41)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:81)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:53)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:173)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultHashOperations.multiGet(DefaultHashOperations.java:157)
+	at fnozoszzt.pdd.session.RedisSessionStore$2.doOperations(RedisSessionStore.java:109)
+	at fnozoszzt.pdd.session.RedisSessionStore$2.doOperations(RedisSessionStore.java:106)
+	at fnozoszzt.pdd.session.RedisSessionStore.execute(RedisSessionStore.java:205)
+	at fnozoszzt.pdd.session.RedisSessionStore.get(RedisSessionStore.java:106)
+	at fnozoszzt.pdd.session.GlobalHttpSession.loadMetadateFromStore(GlobalHttpSession.java:112)
+	at fnozoszzt.pdd.session.GlobalHttpSession.<init>(GlobalHttpSession.java:66)
+	at fnozoszzt.pdd.session.GlobalSessionHttpRequest.<init>(GlobalSessionHttpRequest.java:21)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.createGlobalSessionRequest(GlobalSessionFilter.java:83)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.doFilter(GlobalSessionFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at fnozoszzt.pdd.interceptor.RequestsLogFilter.doFilter(RequestsLogFilter.java:115)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:134)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:69)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1665)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:97)
+	... 54 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:129)
+	... 57 more
+[ERROR]-[2019-11-28 21:55:43]-[RedisSessionStore.java:220] Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out 
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:100)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:147)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:41)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:81)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:53)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:173)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultHashOperations.putAll(DefaultHashOperations.java:132)
+	at fnozoszzt.pdd.session.RedisSessionStore$5.doOperations(RedisSessionStore.java:160)
+	at fnozoszzt.pdd.session.RedisSessionStore$5.doOperations(RedisSessionStore.java:157)
+	at fnozoszzt.pdd.session.RedisSessionStore.execute(RedisSessionStore.java:205)
+	at fnozoszzt.pdd.session.RedisSessionStore.set(RedisSessionStore.java:157)
+	at fnozoszzt.pdd.session.GlobalHttpSession.createSession(GlobalHttpSession.java:102)
+	at fnozoszzt.pdd.session.GlobalHttpSession.<init>(GlobalHttpSession.java:68)
+	at fnozoszzt.pdd.session.GlobalSessionHttpRequest.<init>(GlobalSessionHttpRequest.java:21)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.createGlobalSessionRequest(GlobalSessionFilter.java:83)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.doFilter(GlobalSessionFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at fnozoszzt.pdd.interceptor.RequestsLogFilter.doFilter(RequestsLogFilter.java:115)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:134)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:69)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1665)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:97)
+	... 54 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:129)
+	... 57 more
+[ERROR]-[2019-11-28 21:55:45]-[RedisSessionStore.java:220] Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out 
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:100)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:147)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:41)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:81)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:53)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:173)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.RedisTemplate.expire(RedisTemplate.java:645)
+	at fnozoszzt.pdd.session.RedisSessionStore$6.doOperations(RedisSessionStore.java:173)
+	at fnozoszzt.pdd.session.RedisSessionStore$6.doOperations(RedisSessionStore.java:171)
+	at fnozoszzt.pdd.session.RedisSessionStore.execute(RedisSessionStore.java:205)
+	at fnozoszzt.pdd.session.RedisSessionStore.setExpire(RedisSessionStore.java:171)
+	at fnozoszzt.pdd.session.GlobalHttpSession.createSession(GlobalHttpSession.java:103)
+	at fnozoszzt.pdd.session.GlobalHttpSession.<init>(GlobalHttpSession.java:68)
+	at fnozoszzt.pdd.session.GlobalSessionHttpRequest.<init>(GlobalSessionHttpRequest.java:21)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.createGlobalSessionRequest(GlobalSessionFilter.java:83)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.doFilter(GlobalSessionFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at fnozoszzt.pdd.interceptor.RequestsLogFilter.doFilter(RequestsLogFilter.java:115)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:134)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:69)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1665)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:97)
+	... 53 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:129)
+	... 56 more
+[ERROR]-[2019-11-28 21:55:47]-[RedisSessionStore.java:220] Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out 
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:100)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:147)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:41)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:81)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:53)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:173)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultHashOperations.get(DefaultHashOperations.java:45)
+	at fnozoszzt.pdd.session.RedisSessionStore$1.doOperations(RedisSessionStore.java:95)
+	at fnozoszzt.pdd.session.RedisSessionStore$1.doOperations(RedisSessionStore.java:92)
+	at fnozoszzt.pdd.session.RedisSessionStore.execute(RedisSessionStore.java:205)
+	at fnozoszzt.pdd.session.RedisSessionStore.get(RedisSessionStore.java:92)
+	at fnozoszzt.pdd.session.GlobalHttpSession.getAttributeValueFromStore(GlobalHttpSession.java:131)
+	at fnozoszzt.pdd.session.GlobalHttpSession.getAttribute(GlobalHttpSession.java:154)
+	at org.springframework.web.servlet.support.SessionFlashMapManager.retrieveFlashMaps(SessionFlashMapManager.java:48)
+	at org.springframework.web.servlet.support.AbstractFlashMapManager.retrieveAndUpdate(AbstractFlashMapManager.java:93)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:916)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.doFilter(GlobalSessionFilter.java:133)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at fnozoszzt.pdd.interceptor.RequestsLogFilter.doFilter(RequestsLogFilter.java:115)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:134)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:69)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1665)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:97)
+	... 65 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:129)
+	... 68 more
+[INFO]-[2019-11-28 21:55:47]-[TestController.java:26] = = = 
+[ERROR]-[2019-11-28 21:55:50]-[RedisSessionStore.java:220] Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out 
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:100)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:147)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:41)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:81)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:53)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:173)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultHashOperations.multiGet(DefaultHashOperations.java:157)
+	at fnozoszzt.pdd.session.RedisSessionStore$2.doOperations(RedisSessionStore.java:109)
+	at fnozoszzt.pdd.session.RedisSessionStore$2.doOperations(RedisSessionStore.java:106)
+	at fnozoszzt.pdd.session.RedisSessionStore.execute(RedisSessionStore.java:205)
+	at fnozoszzt.pdd.session.RedisSessionStore.get(RedisSessionStore.java:106)
+	at fnozoszzt.pdd.session.GlobalHttpSession.loadMetadateFromStore(GlobalHttpSession.java:112)
+	at fnozoszzt.pdd.session.GlobalHttpSession.<init>(GlobalHttpSession.java:66)
+	at fnozoszzt.pdd.session.GlobalSessionHttpRequest.<init>(GlobalSessionHttpRequest.java:21)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.createGlobalSessionRequest(GlobalSessionFilter.java:83)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.doFilter(GlobalSessionFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at fnozoszzt.pdd.interceptor.RequestsLogFilter.doFilter(RequestsLogFilter.java:115)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:134)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:69)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1665)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:97)
+	... 54 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:129)
+	... 57 more
+[ERROR]-[2019-11-28 21:55:52]-[RedisSessionStore.java:220] Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out 
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:100)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:147)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:41)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:81)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:53)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:173)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultHashOperations.putAll(DefaultHashOperations.java:132)
+	at fnozoszzt.pdd.session.RedisSessionStore$5.doOperations(RedisSessionStore.java:160)
+	at fnozoszzt.pdd.session.RedisSessionStore$5.doOperations(RedisSessionStore.java:157)
+	at fnozoszzt.pdd.session.RedisSessionStore.execute(RedisSessionStore.java:205)
+	at fnozoszzt.pdd.session.RedisSessionStore.set(RedisSessionStore.java:157)
+	at fnozoszzt.pdd.session.GlobalHttpSession.createSession(GlobalHttpSession.java:102)
+	at fnozoszzt.pdd.session.GlobalHttpSession.<init>(GlobalHttpSession.java:68)
+	at fnozoszzt.pdd.session.GlobalSessionHttpRequest.<init>(GlobalSessionHttpRequest.java:21)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.createGlobalSessionRequest(GlobalSessionFilter.java:83)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.doFilter(GlobalSessionFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at fnozoszzt.pdd.interceptor.RequestsLogFilter.doFilter(RequestsLogFilter.java:115)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:134)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:69)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1665)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:97)
+	... 54 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:129)
+	... 57 more
+[ERROR]-[2019-11-28 21:55:54]-[RedisSessionStore.java:220] Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out 
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:100)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:147)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:41)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:81)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:53)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:173)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.RedisTemplate.expire(RedisTemplate.java:645)
+	at fnozoszzt.pdd.session.RedisSessionStore$6.doOperations(RedisSessionStore.java:173)
+	at fnozoszzt.pdd.session.RedisSessionStore$6.doOperations(RedisSessionStore.java:171)
+	at fnozoszzt.pdd.session.RedisSessionStore.execute(RedisSessionStore.java:205)
+	at fnozoszzt.pdd.session.RedisSessionStore.setExpire(RedisSessionStore.java:171)
+	at fnozoszzt.pdd.session.GlobalHttpSession.createSession(GlobalHttpSession.java:103)
+	at fnozoszzt.pdd.session.GlobalHttpSession.<init>(GlobalHttpSession.java:68)
+	at fnozoszzt.pdd.session.GlobalSessionHttpRequest.<init>(GlobalSessionHttpRequest.java:21)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.createGlobalSessionRequest(GlobalSessionFilter.java:83)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.doFilter(GlobalSessionFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at fnozoszzt.pdd.interceptor.RequestsLogFilter.doFilter(RequestsLogFilter.java:115)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:134)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:69)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1665)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:97)
+	... 53 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:129)
+	... 56 more
+[ERROR]-[2019-11-28 21:55:56]-[RedisSessionStore.java:220] Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out 
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:100)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:147)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:41)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:81)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:53)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:173)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultHashOperations.get(DefaultHashOperations.java:45)
+	at fnozoszzt.pdd.session.RedisSessionStore$1.doOperations(RedisSessionStore.java:95)
+	at fnozoszzt.pdd.session.RedisSessionStore$1.doOperations(RedisSessionStore.java:92)
+	at fnozoszzt.pdd.session.RedisSessionStore.execute(RedisSessionStore.java:205)
+	at fnozoszzt.pdd.session.RedisSessionStore.get(RedisSessionStore.java:92)
+	at fnozoszzt.pdd.session.GlobalHttpSession.getAttributeValueFromStore(GlobalHttpSession.java:131)
+	at fnozoszzt.pdd.session.GlobalHttpSession.getAttribute(GlobalHttpSession.java:154)
+	at org.springframework.web.servlet.support.SessionFlashMapManager.retrieveFlashMaps(SessionFlashMapManager.java:48)
+	at org.springframework.web.servlet.support.AbstractFlashMapManager.retrieveAndUpdate(AbstractFlashMapManager.java:93)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:916)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at fnozoszzt.pdd.session.GlobalSessionFilter.doFilter(GlobalSessionFilter.java:133)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at fnozoszzt.pdd.interceptor.RequestsLogFilter.doFilter(RequestsLogFilter.java:115)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:134)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:69)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1665)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:97)
+	... 65 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at redis.clients.jedis.Connection.connect(Connection.java:129)
+	... 68 more
+[INFO]-[2019-11-28 21:56:16]-[AbstractApplicationContext.java:993] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6e1567f1: startup date [Thu Nov 28 21:54:42 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@483bf400 
+[INFO]-[2019-11-28 21:56:16]-[MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown 
+[INFO]-[2019-11-28 21:56:16]-[MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans 
+[INFO]-[2019-11-28 22:01:37]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 22:01:37]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@326de728: startup date [Thu Nov 28 22:01:37 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 22:01:38]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:01:38]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2c9f5f59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:01:38]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 22:01:38]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4f7d0008: startup date [Thu Nov 28 22:01:38 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@326de728 
+[INFO]-[2019-11-28 22:01:39]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 22:01:39]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:01:40]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2c9f5f59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:01:40]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8001 (http) 
+[INFO]-[2019-11-28 22:01:40]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1664 ms 
+[ERROR]-[2019-11-28 22:01:40]-[TomcatStarter.java:62] Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'myApplication': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'login.use_bdms' in value "${login.use_bdms}" 
+[WARN]-[2019-11-28 22:01:40]-[AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat 
+[INFO]-[2019-11-28 22:01:40]-[ConditionEvaluationReportLoggingListener.java:101] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[ERROR]-[2019-11-28 22:01:40]-[SpringApplication.java:842] Application run failed 
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:155)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at fnozoszzt.pdd.MyApplication.main(MyApplication.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:413)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:174)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152)
+	... 16 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myApplication': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'login.use_bdms' in value "${login.use_bdms}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:379)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1256)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1105)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:226)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:182)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:177)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:159)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:81)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:250)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:237)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:54)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5245)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'login.use_bdms' in value "${login.use_bdms}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:839)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	... 32 more
+[INFO]-[2019-11-28 22:04:06]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 22:04:06]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@13b6d03: startup date [Thu Nov 28 22:04:06 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 22:04:07]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:04:07]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1eeec37b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:04:07]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 22:04:07]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@239963d8: startup date [Thu Nov 28 22:04:07 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@13b6d03 
+[INFO]-[2019-11-28 22:04:08]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 22:04:08]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:04:08]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1eeec37b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:04:08]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8001 (http) 
+[INFO]-[2019-11-28 22:04:08]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1411 ms 
+[INFO]-[2019-11-28 22:04:09]-[ServletRegistrationBean.java:186] Servlet dispatcherServlet mapped to [/] 
+[INFO]-[2019-11-28 22:04:09]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO]-[2019-11-28 22:04:09]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO]-[2019-11-28 22:04:09]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO]-[2019-11-28 22:04:09]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO]-[2019-11-28 22:04:09]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'RequestsLogFilter' to urls: [/*] 
+[INFO]-[2019-11-28 22:04:09]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'globalSessionFilter' to: [/*] 
+[WARN]-[2019-11-28 22:04:09]-[AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisUtil': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'global.localToken.timeout' in value "${global.localToken.timeout}" 
+[INFO]-[2019-11-28 22:04:09]-[ConditionEvaluationReportLoggingListener.java:101] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[ERROR]-[2019-11-28 22:04:09]-[SpringApplication.java:842] Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisUtil': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'global.localToken.timeout' in value "${global.localToken.timeout}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:379)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at fnozoszzt.pdd.MyApplication.main(MyApplication.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'global.localToken.timeout' in value "${global.localToken.timeout}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:839)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	... 25 more
+[INFO]-[2019-11-28 22:05:07]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 22:05:07]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@25618e91: startup date [Thu Nov 28 22:05:07 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 22:05:08]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:05:08]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10aebd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:05:08]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 22:05:08]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@589838eb: startup date [Thu Nov 28 22:05:08 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@25618e91 
+[INFO]-[2019-11-28 22:05:09]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 22:05:09]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:05:09]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10aebd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:05:09]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8001 (http) 
+[INFO]-[2019-11-28 22:05:09]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1299 ms 
+[INFO]-[2019-11-28 22:05:10]-[ServletRegistrationBean.java:186] Servlet dispatcherServlet mapped to [/] 
+[INFO]-[2019-11-28 22:05:10]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO]-[2019-11-28 22:05:10]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO]-[2019-11-28 22:05:10]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO]-[2019-11-28 22:05:10]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO]-[2019-11-28 22:05:10]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'RequestsLogFilter' to urls: [/*] 
+[INFO]-[2019-11-28 22:05:10]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'globalSessionFilter' to: [/*] 
+[WARN]-[2019-11-28 22:05:10]-[ArchaiusAutoConfiguration.java:151] No spring.application.name found, defaulting to 'application' 
+[WARN]-[2019-11-28 22:05:10]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 22:05:10]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[WARN]-[2019-11-28 22:05:10]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 22:05:10]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[INFO]-[2019-11-28 22:05:10]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:05:10]-[RequestMappingHandlerAdapter.java:574] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@589838eb: startup date [Thu Nov 28 22:05:08 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@25618e91 
+[INFO]-[2019-11-28 22:05:10]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/]}" onto public void fnozoszzt.pdd.controller.TestController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception 
+[INFO]-[2019-11-28 22:05:10]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO]-[2019-11-28 22:05:10]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO]-[2019-11-28 22:05:10]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:05:10]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:05:10]-[ExceptionHandlerExceptionResolver.java:288] Detected @ExceptionHandler methods in myExceptionHandler 
+[INFO]-[2019-11-28 22:05:11]-[MBeanExporter.java:433] Registering beans for JMX exposure on startup 
+[INFO]-[2019-11-28 22:05:11]-[MBeanExporter.java:895] Bean with name 'refreshScope' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:05:11]-[MBeanExporter.java:895] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:05:11]-[MBeanExporter.java:895] Bean with name 'environmentManager' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:05:11]-[MBeanExporter.java:675] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager] 
+[INFO]-[2019-11-28 22:05:11]-[MBeanExporter.java:675] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope] 
+[INFO]-[2019-11-28 22:05:11]-[MBeanExporter.java:675] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=589838eb,type=ConfigurationPropertiesRebinder] 
+[INFO]-[2019-11-28 22:05:11]-[TomcatWebServer.java:206] Tomcat started on port(s): 8001 (http) with context path '' 
+[INFO]-[2019-11-28 22:05:11]-[StartupInfoLogger.java:59] Started MyApplication in 3.935 seconds (JVM running for 4.474) 
+[INFO]-[2019-11-28 22:06:11]-[AbstractApplicationContext.java:993] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@589838eb: startup date [Thu Nov 28 22:05:08 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@25618e91 
+[INFO]-[2019-11-28 22:06:11]-[MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown 
+[INFO]-[2019-11-28 22:06:11]-[MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans 
+[INFO]-[2019-11-28 22:07:04]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 22:07:05]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@483bf400: startup date [Thu Nov 28 22:07:05 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 22:07:05]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:07:05]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7475263a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:07:05]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 22:07:05]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c0ecd4b: startup date [Thu Nov 28 22:07:05 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@483bf400 
+[INFO]-[2019-11-28 22:07:06]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 22:07:06]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:07:06]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7475263a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:07:06]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8001 (http) 
+[INFO]-[2019-11-28 22:07:06]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1252 ms 
+[INFO]-[2019-11-28 22:07:07]-[ServletRegistrationBean.java:186] Servlet dispatcherServlet mapped to [/] 
+[INFO]-[2019-11-28 22:07:07]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO]-[2019-11-28 22:07:07]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO]-[2019-11-28 22:07:07]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO]-[2019-11-28 22:07:07]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO]-[2019-11-28 22:07:07]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'RequestsLogFilter' to urls: [/*] 
+[INFO]-[2019-11-28 22:07:07]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'globalSessionFilter' to: [/*] 
+[WARN]-[2019-11-28 22:07:07]-[ArchaiusAutoConfiguration.java:151] No spring.application.name found, defaulting to 'application' 
+[WARN]-[2019-11-28 22:07:07]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 22:07:07]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[WARN]-[2019-11-28 22:07:07]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 22:07:07]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[INFO]-[2019-11-28 22:07:07]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:07:07]-[RequestMappingHandlerAdapter.java:574] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c0ecd4b: startup date [Thu Nov 28 22:07:05 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@483bf400 
+[INFO]-[2019-11-28 22:07:07]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/]}" onto public void fnozoszzt.pdd.controller.TestController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception 
+[INFO]-[2019-11-28 22:07:07]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO]-[2019-11-28 22:07:07]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO]-[2019-11-28 22:07:07]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:07:07]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:07:07]-[ExceptionHandlerExceptionResolver.java:288] Detected @ExceptionHandler methods in myExceptionHandler 
+[INFO]-[2019-11-28 22:07:08]-[MBeanExporter.java:433] Registering beans for JMX exposure on startup 
+[INFO]-[2019-11-28 22:07:08]-[MBeanExporter.java:895] Bean with name 'refreshScope' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:07:08]-[MBeanExporter.java:895] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:07:08]-[MBeanExporter.java:895] Bean with name 'environmentManager' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:07:08]-[MBeanExporter.java:675] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager] 
+[INFO]-[2019-11-28 22:07:08]-[MBeanExporter.java:675] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope] 
+[INFO]-[2019-11-28 22:07:08]-[MBeanExporter.java:675] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3c0ecd4b,type=ConfigurationPropertiesRebinder] 
+[INFO]-[2019-11-28 22:07:08]-[TomcatWebServer.java:206] Tomcat started on port(s): 8001 (http) with context path '' 
+[INFO]-[2019-11-28 22:07:08]-[StartupInfoLogger.java:59] Started MyApplication in 4.053 seconds (JVM running for 4.606) 
+[INFO]-[2019-11-28 22:08:18]-[FrameworkServlet.java:494] FrameworkServlet 'dispatcherServlet': initialization started 
+[INFO]-[2019-11-28 22:08:18]-[FrameworkServlet.java:509] FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms 
+[INFO]-[2019-11-28 22:09:29]-[TestController.java:26] = = = 
+[INFO]-[2019-11-28 22:09:33]-[TestController.java:26] = = = 
+[INFO]-[2019-11-28 22:10:12]-[TestController.java:26] = = = 
+[INFO]-[2019-11-28 22:53:10]-[AbstractApplicationContext.java:993] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c0ecd4b: startup date [Thu Nov 28 22:07:05 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@483bf400 
+[INFO]-[2019-11-28 22:53:10]-[MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown 
+[INFO]-[2019-11-28 22:53:10]-[MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans 
+[INFO]-[2019-11-28 22:53:16]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 22:53:17]-[InetUtils.java:170] Cannot determine local hostname 
+[INFO]-[2019-11-28 22:53:18]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c53fd30: startup date [Thu Nov 28 22:53:18 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 22:53:18]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:53:18]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a8537157] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:53:19]-[InetUtils.java:170] Cannot determine local hostname 
+[INFO]-[2019-11-28 22:53:19]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 22:53:19]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4dfa3a9d: startup date [Thu Nov 28 22:53:19 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c53fd30 
+[INFO]-[2019-11-28 22:53:20]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 22:53:20]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:53:21]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a8537157] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:53:21]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8001 (http) 
+[INFO]-[2019-11-28 22:53:21]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1823 ms 
+[INFO]-[2019-11-28 22:53:22]-[ServletRegistrationBean.java:186] Servlet dispatcherServlet mapped to [/] 
+[INFO]-[2019-11-28 22:53:22]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO]-[2019-11-28 22:53:22]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO]-[2019-11-28 22:53:22]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO]-[2019-11-28 22:53:22]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO]-[2019-11-28 22:53:22]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'LoginFilter' to urls: [/*] 
+[INFO]-[2019-11-28 22:53:22]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'RequestsLogFilter' to urls: [/*] 
+[INFO]-[2019-11-28 22:53:22]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'globalSessionFilter' to: [/*] 
+[WARN]-[2019-11-28 22:53:22]-[ArchaiusAutoConfiguration.java:151] No spring.application.name found, defaulting to 'application' 
+[WARN]-[2019-11-28 22:53:22]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 22:53:22]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[WARN]-[2019-11-28 22:53:22]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 22:53:22]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[INFO]-[2019-11-28 22:53:22]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:53:22]-[RequestMappingHandlerAdapter.java:574] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4dfa3a9d: startup date [Thu Nov 28 22:53:19 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c53fd30 
+[INFO]-[2019-11-28 22:53:23]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/]}" onto public void fnozoszzt.pdd.controller.TestController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception 
+[INFO]-[2019-11-28 22:53:23]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO]-[2019-11-28 22:53:23]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO]-[2019-11-28 22:53:23]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:53:23]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:53:23]-[ExceptionHandlerExceptionResolver.java:288] Detected @ExceptionHandler methods in myExceptionHandler 
+[INFO]-[2019-11-28 22:53:23]-[MBeanExporter.java:433] Registering beans for JMX exposure on startup 
+[INFO]-[2019-11-28 22:53:23]-[MBeanExporter.java:895] Bean with name 'refreshScope' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:53:23]-[MBeanExporter.java:895] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:53:23]-[MBeanExporter.java:895] Bean with name 'environmentManager' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:53:23]-[MBeanExporter.java:675] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager] 
+[INFO]-[2019-11-28 22:53:23]-[MBeanExporter.java:675] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope] 
+[INFO]-[2019-11-28 22:53:23]-[MBeanExporter.java:675] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4dfa3a9d,type=ConfigurationPropertiesRebinder] 
+[INFO]-[2019-11-28 22:53:23]-[TomcatWebServer.java:206] Tomcat started on port(s): 8001 (http) with context path '' 
+[INFO]-[2019-11-28 22:53:23]-[StartupInfoLogger.java:59] Started MyApplication in 7.249 seconds (JVM running for 7.843) 
+[INFO]-[2019-11-28 22:53:26]-[FrameworkServlet.java:494] FrameworkServlet 'dispatcherServlet': initialization started 
+[INFO]-[2019-11-28 22:53:26]-[FrameworkServlet.java:509] FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms 
+[INFO]-[2019-11-28 22:53:45]-[AbstractApplicationContext.java:993] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4dfa3a9d: startup date [Thu Nov 28 22:53:19 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c53fd30 
+[INFO]-[2019-11-28 22:53:45]-[MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown 
+[INFO]-[2019-11-28 22:53:45]-[MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans 
+[INFO]-[2019-11-28 22:58:35]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 22:58:35]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@64c64813: startup date [Thu Nov 28 22:58:35 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 22:58:36]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:58:36]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$afb3b078] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:58:36]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 22:58:36]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@598067a5: startup date [Thu Nov 28 22:58:36 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@64c64813 
+[INFO]-[2019-11-28 22:58:37]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 22:58:37]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 22:58:37]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$afb3b078] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 22:58:37]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8001 (http) 
+[INFO]-[2019-11-28 22:58:38]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1436 ms 
+[INFO]-[2019-11-28 22:58:38]-[ServletRegistrationBean.java:186] Servlet dispatcherServlet mapped to [/] 
+[INFO]-[2019-11-28 22:58:38]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO]-[2019-11-28 22:58:38]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO]-[2019-11-28 22:58:38]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO]-[2019-11-28 22:58:38]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO]-[2019-11-28 22:58:38]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'RequestsLogFilter' to urls: [/*] 
+[INFO]-[2019-11-28 22:58:38]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'LoginFilter' to urls: [/*] 
+[INFO]-[2019-11-28 22:58:38]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'globalSessionFilter' to: [/*] 
+[WARN]-[2019-11-28 22:58:38]-[ArchaiusAutoConfiguration.java:151] No spring.application.name found, defaulting to 'application' 
+[WARN]-[2019-11-28 22:58:38]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 22:58:38]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[WARN]-[2019-11-28 22:58:38]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 22:58:38]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[INFO]-[2019-11-28 22:58:38]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:58:38]-[RequestMappingHandlerAdapter.java:574] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@598067a5: startup date [Thu Nov 28 22:58:36 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@64c64813 
+[INFO]-[2019-11-28 22:58:39]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/]}" onto public void fnozoszzt.pdd.controller.TestController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception 
+[INFO]-[2019-11-28 22:58:39]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO]-[2019-11-28 22:58:39]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO]-[2019-11-28 22:58:39]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:58:39]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 22:58:39]-[ExceptionHandlerExceptionResolver.java:288] Detected @ExceptionHandler methods in myExceptionHandler 
+[INFO]-[2019-11-28 22:58:40]-[MBeanExporter.java:433] Registering beans for JMX exposure on startup 
+[INFO]-[2019-11-28 22:58:40]-[MBeanExporter.java:895] Bean with name 'refreshScope' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:58:40]-[MBeanExporter.java:895] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:58:40]-[MBeanExporter.java:895] Bean with name 'environmentManager' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 22:58:40]-[MBeanExporter.java:675] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager] 
+[INFO]-[2019-11-28 22:58:40]-[MBeanExporter.java:675] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope] 
+[INFO]-[2019-11-28 22:58:40]-[MBeanExporter.java:675] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=598067a5,type=ConfigurationPropertiesRebinder] 
+[INFO]-[2019-11-28 22:58:40]-[TomcatWebServer.java:206] Tomcat started on port(s): 8001 (http) with context path '' 
+[INFO]-[2019-11-28 22:58:40]-[StartupInfoLogger.java:59] Started MyApplication in 5.338 seconds (JVM running for 5.944) 
+[INFO]-[2019-11-28 22:58:40]-[FrameworkServlet.java:494] FrameworkServlet 'dispatcherServlet': initialization started 
+[INFO]-[2019-11-28 22:58:40]-[FrameworkServlet.java:509] FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms 
+[INFO]-[2019-11-28 23:07:12]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 23:07:12]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@13b6d03: startup date [Thu Nov 28 23:07:12 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 23:07:13]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 23:07:13]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1eeec37b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 23:07:13]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 23:07:13]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@239963d8: startup date [Thu Nov 28 23:07:13 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@13b6d03 
+[INFO]-[2019-11-28 23:07:14]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 23:07:14]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 23:07:14]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1eeec37b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 23:07:14]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8001 (http) 
+[INFO]-[2019-11-28 23:07:14]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1362 ms 
+[INFO]-[2019-11-28 23:07:15]-[ServletRegistrationBean.java:186] Servlet dispatcherServlet mapped to [/] 
+[INFO]-[2019-11-28 23:07:15]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:15]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:15]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:15]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:15]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'LoginFilter' to urls: [/*] 
+[INFO]-[2019-11-28 23:07:15]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'RequestsLogFilter' to urls: [/*] 
+[INFO]-[2019-11-28 23:07:15]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'globalSessionFilter' to: [/*] 
+[WARN]-[2019-11-28 23:07:15]-[ArchaiusAutoConfiguration.java:151] No spring.application.name found, defaulting to 'application' 
+[WARN]-[2019-11-28 23:07:15]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 23:07:15]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[WARN]-[2019-11-28 23:07:15]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 23:07:15]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[INFO]-[2019-11-28 23:07:15]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:07:15]-[RequestMappingHandlerAdapter.java:574] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@239963d8: startup date [Thu Nov 28 23:07:13 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@13b6d03 
+[INFO]-[2019-11-28 23:07:15]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/]}" onto public void fnozoszzt.pdd.controller.TestController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception 
+[INFO]-[2019-11-28 23:07:15]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO]-[2019-11-28 23:07:15]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO]-[2019-11-28 23:07:15]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:07:15]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:07:15]-[ExceptionHandlerExceptionResolver.java:288] Detected @ExceptionHandler methods in myExceptionHandler 
+[INFO]-[2019-11-28 23:07:16]-[MBeanExporter.java:433] Registering beans for JMX exposure on startup 
+[INFO]-[2019-11-28 23:07:16]-[MBeanExporter.java:895] Bean with name 'refreshScope' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:07:16]-[MBeanExporter.java:895] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:07:16]-[MBeanExporter.java:895] Bean with name 'environmentManager' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:07:16]-[MBeanExporter.java:675] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager] 
+[INFO]-[2019-11-28 23:07:16]-[MBeanExporter.java:675] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope] 
+[INFO]-[2019-11-28 23:07:16]-[MBeanExporter.java:675] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=239963d8,type=ConfigurationPropertiesRebinder] 
+[INFO]-[2019-11-28 23:07:16]-[ConditionEvaluationReportLoggingListener.java:101] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[ERROR]-[2019-11-28 23:07:16]-[LoggingFailureAnalysisReporter.java:42] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8001 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8001, or configure this application to listen on another port.
+ 
+[INFO]-[2019-11-28 23:07:16]-[AbstractApplicationContext.java:993] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@239963d8: startup date [Thu Nov 28 23:07:13 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@13b6d03 
+[INFO]-[2019-11-28 23:07:16]-[MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown 
+[INFO]-[2019-11-28 23:07:16]-[MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans 
+[INFO]-[2019-11-28 23:07:21]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 23:07:21]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@f5f2bb7: startup date [Thu Nov 28 23:07:21 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 23:07:22]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 23:07:22]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b4f225e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 23:07:22]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 23:07:22]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57fffcd7: startup date [Thu Nov 28 23:07:22 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@f5f2bb7 
+[INFO]-[2019-11-28 23:07:23]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 23:07:23]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 23:07:23]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b4f225e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 23:07:24]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8001 (http) 
+[INFO]-[2019-11-28 23:07:24]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1548 ms 
+[INFO]-[2019-11-28 23:07:24]-[ServletRegistrationBean.java:186] Servlet dispatcherServlet mapped to [/] 
+[INFO]-[2019-11-28 23:07:24]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:24]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:24]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:24]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:24]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'LoginFilter' to urls: [/*] 
+[INFO]-[2019-11-28 23:07:24]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'RequestsLogFilter' to urls: [/*] 
+[INFO]-[2019-11-28 23:07:24]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'globalSessionFilter' to: [/*] 
+[WARN]-[2019-11-28 23:07:24]-[ArchaiusAutoConfiguration.java:151] No spring.application.name found, defaulting to 'application' 
+[WARN]-[2019-11-28 23:07:24]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 23:07:24]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[WARN]-[2019-11-28 23:07:24]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 23:07:24]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[INFO]-[2019-11-28 23:07:24]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:07:25]-[RequestMappingHandlerAdapter.java:574] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57fffcd7: startup date [Thu Nov 28 23:07:22 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@f5f2bb7 
+[INFO]-[2019-11-28 23:07:25]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/]}" onto public void fnozoszzt.pdd.controller.TestController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception 
+[INFO]-[2019-11-28 23:07:25]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO]-[2019-11-28 23:07:25]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO]-[2019-11-28 23:07:25]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:07:25]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:07:25]-[ExceptionHandlerExceptionResolver.java:288] Detected @ExceptionHandler methods in myExceptionHandler 
+[INFO]-[2019-11-28 23:07:25]-[MBeanExporter.java:433] Registering beans for JMX exposure on startup 
+[INFO]-[2019-11-28 23:07:25]-[MBeanExporter.java:895] Bean with name 'refreshScope' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:07:25]-[MBeanExporter.java:895] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:07:25]-[MBeanExporter.java:895] Bean with name 'environmentManager' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:07:25]-[MBeanExporter.java:675] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager] 
+[INFO]-[2019-11-28 23:07:25]-[MBeanExporter.java:675] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope] 
+[INFO]-[2019-11-28 23:07:25]-[MBeanExporter.java:675] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=57fffcd7,type=ConfigurationPropertiesRebinder] 
+[INFO]-[2019-11-28 23:07:25]-[ConditionEvaluationReportLoggingListener.java:101] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[ERROR]-[2019-11-28 23:07:25]-[LoggingFailureAnalysisReporter.java:42] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8001 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8001, or configure this application to listen on another port.
+ 
+[INFO]-[2019-11-28 23:07:25]-[AbstractApplicationContext.java:993] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57fffcd7: startup date [Thu Nov 28 23:07:22 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@f5f2bb7 
+[INFO]-[2019-11-28 23:07:25]-[MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown 
+[INFO]-[2019-11-28 23:07:25]-[MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans 
+[INFO]-[2019-11-28 23:07:46]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 23:07:47]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@25618e91: startup date [Thu Nov 28 23:07:47 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 23:07:47]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 23:07:47]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10aebd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 23:07:48]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 23:07:48]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@271053e1: startup date [Thu Nov 28 23:07:48 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@25618e91 
+[INFO]-[2019-11-28 23:07:48]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 23:07:48]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 23:07:48]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10aebd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 23:07:49]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8001 (http) 
+[INFO]-[2019-11-28 23:07:49]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1377 ms 
+[INFO]-[2019-11-28 23:07:49]-[ServletRegistrationBean.java:186] Servlet dispatcherServlet mapped to [/] 
+[INFO]-[2019-11-28 23:07:49]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:49]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:49]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:49]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO]-[2019-11-28 23:07:49]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'LoginFilter' to urls: [/*] 
+[INFO]-[2019-11-28 23:07:49]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'RequestsLogFilter' to urls: [/*] 
+[INFO]-[2019-11-28 23:07:49]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'globalSessionFilter' to: [/*] 
+[WARN]-[2019-11-28 23:07:49]-[ArchaiusAutoConfiguration.java:151] No spring.application.name found, defaulting to 'application' 
+[WARN]-[2019-11-28 23:07:49]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 23:07:49]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[WARN]-[2019-11-28 23:07:49]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 23:07:49]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[INFO]-[2019-11-28 23:07:49]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:07:50]-[RequestMappingHandlerAdapter.java:574] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@271053e1: startup date [Thu Nov 28 23:07:48 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@25618e91 
+[INFO]-[2019-11-28 23:07:50]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/]}" onto public void fnozoszzt.pdd.controller.TestController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception 
+[INFO]-[2019-11-28 23:07:50]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO]-[2019-11-28 23:07:50]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO]-[2019-11-28 23:07:50]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:07:50]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:07:50]-[ExceptionHandlerExceptionResolver.java:288] Detected @ExceptionHandler methods in myExceptionHandler 
+[INFO]-[2019-11-28 23:07:50]-[MBeanExporter.java:433] Registering beans for JMX exposure on startup 
+[INFO]-[2019-11-28 23:07:50]-[MBeanExporter.java:895] Bean with name 'refreshScope' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:07:50]-[MBeanExporter.java:895] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:07:50]-[MBeanExporter.java:895] Bean with name 'environmentManager' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:07:50]-[MBeanExporter.java:675] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager] 
+[INFO]-[2019-11-28 23:07:50]-[MBeanExporter.java:675] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope] 
+[INFO]-[2019-11-28 23:07:50]-[MBeanExporter.java:675] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=271053e1,type=ConfigurationPropertiesRebinder] 
+[INFO]-[2019-11-28 23:07:50]-[TomcatWebServer.java:206] Tomcat started on port(s): 8001 (http) with context path '' 
+[INFO]-[2019-11-28 23:07:50]-[StartupInfoLogger.java:59] Started MyApplication in 4.065 seconds (JVM running for 4.674) 
+[INFO]-[2019-11-28 23:07:58]-[FrameworkServlet.java:494] FrameworkServlet 'dispatcherServlet': initialization started 
+[INFO]-[2019-11-28 23:07:58]-[FrameworkServlet.java:509] FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms 
+[INFO]-[2019-11-28 23:08:10]-[AbstractApplicationContext.java:993] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@271053e1: startup date [Thu Nov 28 23:07:48 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@25618e91 
+[INFO]-[2019-11-28 23:08:10]-[MBeanExporter.java:451] Unregistering JMX-exposed beans on shutdown 
+[INFO]-[2019-11-28 23:08:10]-[MBeanRegistrationSupport.java:183] Unregistering JMX-exposed beans 
+[INFO]-[2019-11-28 23:14:25]-[Version.java:21] HV000001: Hibernate Validator 6.0.10.Final 
+[INFO]-[2019-11-28 23:14:26]-[InetUtils.java:170] Cannot determine local hostname 
+[INFO]-[2019-11-28 23:14:27]-[AbstractApplicationContext.java:590] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@224aed64: startup date [Thu Nov 28 23:14:27 CST 2019]; root of context hierarchy 
+[INFO]-[2019-11-28 23:14:27]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 23:14:27]-[PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$82ee4029] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 23:14:28]-[InetUtils.java:170] Cannot determine local hostname 
+[INFO]-[2019-11-28 23:14:28]-[SpringApplication.java:659] No active profile set, falling back to default profiles: default 
+[INFO]-[2019-11-28 23:14:28]-[AbstractApplicationContext.java:590] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@204f30ec: startup date [Thu Nov 28 23:14:28 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@224aed64 
+[INFO]-[2019-11-28 23:14:29]-[GenericScope.java:294] BeanFactory id=7e5af06d-07b6-30f3-b218-844cf2f393c9 
+[INFO]-[2019-11-28 23:14:29]-[AutowiredAnnotationBeanPostProcessor.java:154] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+[INFO]-[2019-11-28 23:14:29]-[PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$82ee4029] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO]-[2019-11-28 23:14:29]-[TomcatWebServer.java:91] Tomcat initialized with port(s): 8001 (http) 
+[INFO]-[2019-11-28 23:14:30]-[ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1209 ms 
+[INFO]-[2019-11-28 23:14:30]-[ServletRegistrationBean.java:186] Servlet dispatcherServlet mapped to [/] 
+[INFO]-[2019-11-28 23:14:30]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'characterEncodingFilter' to: [/*] 
+[INFO]-[2019-11-28 23:14:30]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+[INFO]-[2019-11-28 23:14:30]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+[INFO]-[2019-11-28 23:14:30]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'requestContextFilter' to: [/*] 
+[INFO]-[2019-11-28 23:14:30]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'RequestsLogFilter' to urls: [/*] 
+[INFO]-[2019-11-28 23:14:30]-[AbstractFilterRegistrationBean.java:258] Mapping filter: 'LoginFilter' to urls: [/*] 
+[INFO]-[2019-11-28 23:14:30]-[AbstractFilterRegistrationBean.java:245] Mapping filter: 'globalSessionFilter' to: [/*] 
+[WARN]-[2019-11-28 23:14:30]-[ArchaiusAutoConfiguration.java:151] No spring.application.name found, defaulting to 'application' 
+[WARN]-[2019-11-28 23:14:30]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 23:14:30]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[WARN]-[2019-11-28 23:14:30]-[URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources. 
+[INFO]-[2019-11-28 23:14:30]-[URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+[INFO]-[2019-11-28 23:14:30]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:14:31]-[RequestMappingHandlerAdapter.java:574] Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@204f30ec: startup date [Thu Nov 28 23:14:28 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@224aed64 
+[INFO]-[2019-11-28 23:14:31]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/]}" onto public void fnozoszzt.pdd.controller.TestController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception 
+[INFO]-[2019-11-28 23:14:31]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+[INFO]-[2019-11-28 23:14:31]-[AbstractHandlerMethodMapping.java:547] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+[INFO]-[2019-11-28 23:14:31]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:14:31]-[AbstractUrlHandlerMapping.java:373] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+[INFO]-[2019-11-28 23:14:31]-[ExceptionHandlerExceptionResolver.java:288] Detected @ExceptionHandler methods in myExceptionHandler 
+[INFO]-[2019-11-28 23:14:32]-[MBeanExporter.java:433] Registering beans for JMX exposure on startup 
+[INFO]-[2019-11-28 23:14:32]-[MBeanExporter.java:895] Bean with name 'refreshScope' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:14:32]-[MBeanExporter.java:895] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:14:32]-[MBeanExporter.java:895] Bean with name 'environmentManager' has been autodetected for JMX exposure 
+[INFO]-[2019-11-28 23:14:32]-[MBeanExporter.java:675] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager] 
+[INFO]-[2019-11-28 23:14:32]-[MBeanExporter.java:675] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope] 
+[INFO]-[2019-11-28 23:14:32]-[MBeanExporter.java:675] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=204f30ec,type=ConfigurationPropertiesRebinder] 
+[INFO]-[2019-11-28 23:14:32]-[TomcatWebServer.java:206] Tomcat started on port(s): 8001 (http) with context path '' 
+[INFO]-[2019-11-28 23:14:32]-[StartupInfoLogger.java:59] Started MyApplication in 6.725 seconds (JVM running for 7.339) 
+[INFO]-[2019-11-28 23:14:51]-[FrameworkServlet.java:494] FrameworkServlet 'dispatcherServlet': initialization started 
+[INFO]-[2019-11-28 23:14:51]-[FrameworkServlet.java:509] FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms 

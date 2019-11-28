@@ -1,0 +1,14 @@
+#tomcat端口
+server:
+  port: 8001
+
+#redis服务地址
+redis:
+  server:
+   host:  127.0.0.1
+   port:  6379
+
+#session配置
+global:
+  session:
+    timeout:  240       #minute
