@@ -1,6 +1,6 @@
 #tomcat端口
 server:
-  port: 8001
+  port: 8888
 
 #redis服务地址
 redis:
