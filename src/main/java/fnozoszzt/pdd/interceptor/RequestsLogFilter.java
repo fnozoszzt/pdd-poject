@@ -18,7 +18,7 @@ import java.io.InputStreamReader;
 import java.util.Map;
 
 @WebFilter(filterName="RequestsLogFilter",urlPatterns="/*")
-@Order(1)
+@Order(2)
 public class RequestsLogFilter implements Filter {
 
     private static final Logger logger = LoggerFactory.getLogger("RequestsLogFilter");

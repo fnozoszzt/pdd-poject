@@ -12,3 +12,16 @@ redis:
 global:
   session:
     timeout:  240       #minute
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/pdd?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false&connectTimeout=600000&socketTimeout=600000
+    username: fnozoszzt
+    password: 123456
+
+mybatis:
+  config-location:
+    classpath: mybatis-config.xml
+

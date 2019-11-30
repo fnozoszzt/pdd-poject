@@ -8,12 +8,16 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.annotation.Order;
 
+@WebFilter(filterName="GlobalSessionFilter",urlPatterns="/*")
+@Order(1)
 public class GlobalSessionFilter implements Filter {
     private static final Logger log = LoggerFactory.getLogger(GlobalSessionFilter.class);
     public static final String DEFAULT_GLOBAL_NAMESPACE = "GLOBAL";

@@ -1,22 +1,65 @@
 package fnozoszzt.pdd.bean;
 
+import java.util.Date;
+
 public class User {
-    private String name;
-    private String Id;
+    private String owner_name;
+    private String access_token;
+    private String refresh_token;
+    private String owner_id;
+    private Date login_time;
+    private long login_timestamp;
 
-    public String getId() {
-        return Id;
+    public Date getLogin_time() {
+        return login_time;
     }
 
-    public void setId(String id) {
-        Id = id;
+    public void setAccess_token(String access_token) {
+        this.access_token = access_token;
     }
 
-    public String getName() {
-        return name;
+    public long getLogin_timestamp() {
+        return login_timestamp;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLogin_time(Date login_time) {
+        this.login_time = login_time;
+    }
+
+    public String getAccess_token() {
+        return access_token;
+    }
+
+    public void setLogin_timestamp(long login_timestamp) {
+        this.login_timestamp = login_timestamp;
+    }
+
+    public String getOwner_id() {
+        return owner_id;
+    }
+
+    public void setOwner_id(String owner_id) {
+        this.owner_id = owner_id;
+    }
+
+    public String getOwner_name() {
+        return owner_name;
+    }
+
+    public void setOwner_name(String owner_name) {
+        this.owner_name = owner_name;
+    }
+
+    public String getRefresh_token() {
+        return refresh_token;
+    }
+
+    public void setRefresh_token(String refresh_token) {
+        this.refresh_token = refresh_token;
+    }
+
+    @Override
+    public String toString() {
+        return "user : " + owner_name;
     }
 }

@@ -19,7 +19,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 @WebFilter(filterName="LoginFilter",urlPatterns="/*")
-@Order(2)
+@Order(3)
 public class LoginFilter implements Filter {
 
     private static final Logger logger = LoggerFactory.getLogger("login");
@@ -33,8 +33,7 @@ public class LoginFilter implements Filter {
     }
 
     @Override
-    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain)
-            throws IOException, ServletException {
+    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         logger.info("RequestsLogFilter");
 
         HttpServletRequest request = (HttpServletRequest)servletRequest;
@@ -42,7 +41,9 @@ public class LoginFilter implements Filter {
 
         BodyReaderHttpServletRequestWrapper requestWrapper = new BodyReaderHttpServletRequestWrapper(request);
         String uri = request.getRequestURI();
-        if (uri.startsWith("/login") || uri.startsWith("logon") || uri.startsWith("logout")) {
+        if (uri.startsWith("/login") || uri.startsWith("/logon") || uri.startsWith("/logout")) {
+            logger.info("skip check");
+            filterChain.doFilter(requestWrapper, servletResponse);
             return;
         }
 
@@ -55,8 +56,12 @@ public class LoginFilter implements Filter {
         logger.info("{}", request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + "/");
 
         if (user == null) {
+            logger.info("sendRedirect");
             response.setHeader("Cache-Control", "no-cache");
-            response.sendRedirect("https://mms.pinduoduo.com/open.html?response_type=code&client_id=fe1143f5f21a41e2980bad386b4bc2dc&redirect_uri=http://127.0.0.1:8888/&state=1212");
+            response.sendRedirect("https://mms.pinduoduo.com/open.html?response_type=code&client_id=fe1143f5f21a41e2980bad386b4bc2dc&redirect_uri=http://127.0.0.1:8888/logon&state=1212");
+        } else {
+
+            filterChain.doFilter(requestWrapper, servletResponse);
         }
 
     }
