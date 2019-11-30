@@ -7,12 +7,8 @@ public class User {
     private String access_token;
     private String refresh_token;
     private String owner_id;
-    private Date login_time;
+    private String str;
     private long login_timestamp;
-
-    public Date getLogin_time() {
-        return login_time;
-    }
 
     public void setAccess_token(String access_token) {
         this.access_token = access_token;
@@ -20,10 +16,6 @@ public class User {
 
     public long getLogin_timestamp() {
         return login_timestamp;
-    }
-
-    public void setLogin_time(Date login_time) {
-        this.login_time = login_time;
     }
 
     public String getAccess_token() {
@@ -56,6 +48,14 @@ public class User {
 
     public void setRefresh_token(String refresh_token) {
         this.refresh_token = refresh_token;
+    }
+
+    public String getStr() {
+        return str;
+    }
+
+    public void setStr(String str) {
+        this.str = str;
     }
 
     @Override

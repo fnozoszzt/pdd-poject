@@ -1,6 +1,7 @@
 package fnozoszzt.pdd.interceptor;
 
 import fnozoszzt.pdd.bean.User;
+import fnozoszzt.pdd.common.Const;
 import fnozoszzt.pdd.util.RedisUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -60,7 +61,6 @@ public class LoginFilter implements Filter {
             response.setHeader("Cache-Control", "no-cache");
             response.sendRedirect("https://mms.pinduoduo.com/open.html?response_type=code&client_id=fe1143f5f21a41e2980bad386b4bc2dc&redirect_uri=http://127.0.0.1:8888/logon&state=1212");
         } else {
-
             filterChain.doFilter(requestWrapper, servletResponse);
         }
 

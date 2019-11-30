@@ -8,4 +8,7 @@ public class Const {
     public static final String OAUTH_HOST = "http://open-api.pinduoduo.com";
     public static final String OAUTH_PATH = "/oauth/token";
 
+
+    public static final String REDIS_KEY_USER = "user";
+
 }

@@ -67,16 +67,23 @@ public class LoginController {
 
             User user = new User();
             user.setOwner_name(owner_name);
+            user.setAccess_token(access_token);
+            user.setLogin_timestamp(login_timestamp);
+            user.setOwner_id(owner_id);
+            user.setRefresh_token(refresh_token);
+            user.setStr(res);
 
             User user_ = dao.getUser(user);
             logger.info("user {}", user_);
-
             if (user_ == null) {
                 dao.insertUser(user);
             } else {
-                //dao.updateUser(user);
+                dao.updateUser(user);
             }
+            dao.insertLoginHistory(user);
 
+
+            request.getSession().setAttribute(Const.REDIS_KEY_USER, user);
 
         } catch (Exception e) {
             logger.error("", e);
